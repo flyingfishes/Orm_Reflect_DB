@@ -1,0 +1,7 @@
+<orm tablename="students" beanName="pdm.com.ormdatabase.bean.Student"
+    daoName="pdm.com.ormdatabase.dao.StudentDao">
+    <!-- 是否自增长identity -->
+    <key column="_sid" property="stuId" type="java.lang.Integer" identity="true"></key>
+    <item column="stu_name" property="stuName" type="java.lang.String"></item>
+    <item column="stu_classname" property="stuClass" type="java.lang.String"></item>
+</orm>
